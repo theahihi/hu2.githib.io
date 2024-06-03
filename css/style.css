@@ -15,6 +15,9 @@ a:hover {
 a:active {
   color: brown;
 }
+a:link {
+  color: blue;
+}
 
 input[type="button"]:hover {
   background-color: red;
@@ -74,4 +77,17 @@ header {
 }
 .danhsach {
   font-weight: bolder;
+}
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+h2:target {
+  color: brown;
 }
