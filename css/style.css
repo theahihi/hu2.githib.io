@@ -5,6 +5,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 0 auto;
 }
+
 a {
   text-decoration: none;
   color: blue;
@@ -19,10 +20,6 @@ a:link {
   color: blue;
 }
 
-input[type="button"]:hover {
-  background-color: red;
-  color: black;
-}
 input[type="button"]:active {
   background-color: blue;
 }
@@ -37,7 +34,7 @@ h3 {
 }
 .anh_minh_hoa:hover {
   box-shadow: 0px 0px 20px black;
-  width: 280px;
+  width: 210px;
   height: auto;
 }
 
@@ -56,10 +53,6 @@ nav {
   display: flex;
   flex: 100%;
   padding: 0px;
-  text-align: center;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 nav a {
   color: white;
@@ -74,7 +67,10 @@ nav #selected {
   color: black;
 }
 header {
-  background-color: rgb(66, 64, 64);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 .daumuc {
   color: aliceblue;
@@ -106,4 +102,74 @@ h2:target {
 }
 #nav2 a {
   color: black;
+}
+#search-input {
+  width: 200px;
+  height: 30px;
+  border-radius: 22px;
+  border: 0.5px solid rgb(173, 167, 159);
+  box-shadow: 0px 0px 3px black;
+}
+#timkiem {
+  border-radius: 12px;
+  color: black;
+}
+#timkiem:hover {
+  background-color: bisque;
+}
+.danhmuctruyen {
+  border: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.hidden {
+  display: none;
+}
+
+#gioithieu {
+  background-color: antiquewhite;
+}
+
+.cantruyen {
+  text-align: center;
+}
+#main-content {
+  margin: 0 auto;
+  width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.truyen {
+  margin: 0px;
+  float: left;
+  justify-content: center;
+}
+#demo {
+  float: left;
+  width: 100%;
+  text-align: right;
+  padding: 12px;
+}
+.gioithieu2 {
+  margin: 0 auto;
+  width: 1500px;
+}
+#theloai {
+  float: right;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}
+#truyenhot {
+  float: left;
+}
+.truyen img {
+  width: 200px;
 }

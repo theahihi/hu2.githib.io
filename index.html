@@ -14,175 +14,245 @@
     
   </head>
   <body>
-    <section style="background-color: black ">
-      <marquee behavior="" direction="left" style="color: aliceblue;">
-        Đọc truyện miễn phí không quảng cáo </marquee
-      >
-    </section>
-   
-      <nav>
-        <a href="index.html" id="selected">Trang chủ</a> 
-        <a href="webtruyen/admin/Quản_trị_truyện.html">Quản trị truyện</a> 
-        <a href="webtruyen/Tin_tức_truyện.html">Truyện mới</a>
-      </nav>
-   
-
-   
-     <header>
-        <h1 style=" text-align: center; font-size: 35px">
-          <a href="webtruyen/index.html" class="daumuc"> KHOTRUYENCHU</a>
-        </h1>
-     
-  
-      <p style="text-align: right">
-        <input id="search-input" type="text" placeholder="Tìm kiếm truyện " />
-        <input type="button" value="Tìm kiếm" onclick="searchStory()" />
-      </p>
-     </header>
+    <header> 
+    <a href="webtruyen/index.html" class="daumuc"><img src="./anhnen/logo.png"  style="width: 200px; text-align: left"></a>
+    <select name="danhmuc" class="danhmuctruyen">
+      <option value="quantritruyen"  hidden class="hidden">Danh mục</option>
+      <option value="Suatruyen" > Sửa truyện</option>
+      <option value="themtruyen">Thêm truyện</option>
+    </select>
+    <select name="theloai" class="danhmuctruyen">
+      <option value="" hidden class="hidden">Thể loại</option>
+      <option value="Tonghop" > <a href="./webtruyen/cắm sừng/camsungchap1.html">Tổng hợp</a></option>
+      <option value="kiemhiep"> Kiếm hiệp</option>
+      <option value="ngontinh">Ngôn tình</option>
+    </select>
+    <select name="tinnoibat" class="danhmuctruyen">
+      <option value=""  hidden class="hidden">Tin nổi bật</option>
+      <option value="quantritruyen"> Truyện mới</option>
+      <option value="Suatruyen">Truyện</option>
+      <option value="themtruyen">Thêm truyện</option>
+    </select>
 
     
-      <section class="lop1">
-        <hr />
-    
-        <p>
-          Khotruyenchu miến phí và không quảng cáo <br />
-          Hãy donate để có động lực đăng truyện <br />
-          STK : 231020031234 <br />
-          Ngân hàng : MB bank <br />
-          Chủ sở hữu: NGUYENDUCTHE
-        </p>
-    
-        <hr />
-      </section>
-    
-
-    <p>
-     <nav id="nav2">
-         Danh sách thể loại : <a href="./index.html">Tổng hợp</a> 
-        <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a> 
-        <a href="webtruyen/theloai/ngontinh.html">Ngôn tình</a>
-     </nav>
-     
+    <p style="text-align: right">
+      <input id="search-input" type="text" placeholder="Tìm kiếm truyện " />
+      <input id="timkiem" type="button" value="Tìm kiếm" onclick="searchStory()" />
     </p>
+    
+    </header>
+    
+    <div id="gioithieu">
+      <hr>
+      
+      <pre style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px; font-weight: bold;">
 
-    <table style="display: flex; justify-content: center; align-items: center">
-      <tr>
-        <td>
-          <a href="webtruyen/conluanmachu/motaconluan.html"
-            ><img src="img/con_luan.png" alt="" class="anh_minh_hoa"
-          /></a>
-        </td>
-        <td>
-          <a href="webtruyen/Kiếmđongsonha/motakiemdongsonha.html"
-            ><img src="img/son_ha.png" alt="" class="anh_minh_hoa"
-          /></a>
-        </td>
-        <td>
-          <a href="./webtruyen/tiendan/motatiendan.html">
-            <img src="img/doc_duoc.png" alt="" class="anh_minh_hoa" />
-            
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="webtruyen/conluanmachu/motaconluan.html">Côn luân ma chủ</a>
-        </td>
-       
-        <td>
-          <a href="webtruyen/Kiếmđongsonha/motakiemdongsonha.html"
-            >Kiếm đông sơn hạ</a
-          >
-        </td>
-        <td>
-          <a href="./webtruyen/tiendan/motatiendan.html"
-            >Tiên đan cho ngươi độc dược phần ta</a
-          >
-        </td>
-      </tr>
+      MeTruyenchu - Đọc truyện miễn phí, không quảng cáo 
+      </pre>
+      <hr>
+     
+    </div>
+    <div class="gioithieu2">
+      <pre>
 
-      <tr>
-        <td style="font-size: 15px">
-          Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a>
-        </td>
-        <td style="font-size: 15px">
-          Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a>
-        </td>
-        <td style="font-size: 15px">
-          Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a>
-        </td>
-      </tr>
 
-      <tr>
-        <td><br /></td>
-      </tr>
-      <tr>
-        <td>
-          <a href="webtruyen/hoanggiatieukieuphi.html/motahoangia.html"
-            ><img src="img/Hoang_gia.png" class="anh_minh_hoa"
-          /></a>
-        </td>
-        <td>
-          <a href="webtruyen/cắm sừng/motacamsung.html">
-            <img src="img/cam_sung.png" class="anh_minh_hoa" />
-          </a>
-        </td>
-        <td>
-          <a href="webtruyen/phim giả tình thật/motaphimgia.html"
-            ><img src="img/phim_gia.png" class="anh_minh_hoa"
-          /></a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="webtruyen/hoanggiatieukieuphi.html/motahoangia.html"
-            >Hoàng gia tiểu kiều phi</a
-          >
-        </td>
-        <td>
-          <a href="webtruyen/cắm sừng/motacamsung.html"
-            >Sau khi bị cắm sừng tôi trùng sinh</a
-          >
-        </td>
-        <td>
-          <a href="webtruyen/phim giả tình thật/motaphimgia.html"
-            >Phim giả tình thật</a
-          >
-        </td>
-      </tr>
 
-      <tr>
-        <td style="font-size: 15px">
-          Thể loại: <a href="webtruyen/theloai/ngontinh.html">Ngôn tình</a>
-        </td>
-        <td style="font-size: 15px">
-          Thể loại: <a href="webtruyen/theloai/ngontinh.html">Ngôn tình</a>
-        </td>
-        <td style="font-size: 15px">
-          Thể loại: <a href="webtruyen/theloai/ngontinh.html">Ngôn tình</a>
-        </td>
-      </tr>
-    </table>
-    <script src="timtruyen.js"></script>
-   <div class="div_elm"></div>
-   <h1>Nỗ lực phi thường</h1>
-   <ul>
-    <li><a href="#mobai">Chuyển đến mở bài</a></li>
-    <li><a href="#thanbai">Chuyển đến thân bài</a></li>
-    <li><a href="#ketbai">Chuyển đến kết bài</a></li>
-   </ul>
-   <h2 id="mobai"> Mở bài</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, officiis possimus. Nobis natus explicabo fugit cumque fuga corrupti sapiente cupiditate!</p>
-    <h2 id="thanbai">Thân Bài</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam eaque consectetur dignissimos repellendus enim quas molestiae libero fugit, nostrum exercitationem maxime perferendis sed. Quidem rerum eos praesentium quae distinctio.</p>
-    <h2 id="ketbai">Kết bài</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt molestiae repudiandae alias, cum fuga animi fugiat rerum aspernatur, nostrum, quas reiciendis ipsum eum ex quia et tempora sunt possimus?</p>
-    <div>
-      <h1 class="top"> Tự Học .cc</h1>
-      <p class="top">Tự học lập trình</p>
-      <h2 class="top">tuhoc.cc</h2>
-      <p class="top">tuhoc.cc</p>
-      <p class="top">tuhoc.cc</p>
-      <p class="top">tuhoc.cc</p>
+      </pre>
+      <h2 id="truyenhot"><u>TRUYỆN HOT</u></h2>
+      <select name="theloai" id="theloai">
+        <option value="">Tất cả</option>
+        <option value="">Kiếm hiệp</option>
+        <option value="">Ngôn tình</option>
+      </select>
+    <pre>
+
+      <hr>
+    </pre>
+    </div>
+   
+    
+    <div id="main-content">
+      
+      
+      <div id="content">
+        
+          <div class="truyen">
+            <p class="cantruyen">
+              <a href="webtruyen/conluanmachu/motaconluan.html"
+              ><img src="img/con_luan.png" alt="" class="anh_minh_hoa"
+            /></a>
+            <p class="cantruyen"><a href="webtruyen/conluanmachu/motaconluan.html">Côn luân ma chủ</a></p>
+            <p class="cantruyen">Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a>
+            </p>
+            </p>
+          </div>
+          <div class="truyen">
+            <p class="cantruyen">
+              <a href="webtruyen/Kiếmđongsonha/motakiemdongsonha.html"
+              ><img src="img/son_ha.png" alt="" class="anh_minh_hoa"
+            /></a>
+            <p class="cantruyen"><a href="webtruyen/Kiếmđongsonha/motakiemdongsonha.html"
+              >Kiếm đông sơn hạ</a
+            ></p>
+            <p class="cantruyen">Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a></a>
+            </p>
+            </p>
+          </div>
+          <div class="truyen">
+            <p class="cantruyen">
+              <a href="./webtruyen/tiendan/motatiendan.html">
+                <img src="img/doc_duoc.png" alt="" class="anh_minh_hoa" />
+                
+            <p class="cantruyen"><a href="./webtruyen/tiendan/motatiendan.html"
+              >Tiên đan cho ngươi độc dược phần ta</a
+            >
+            <p class="cantruyen">Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a></a>
+            </p>
+           
+          </div>
+          <div class="truyen">
+            <p class="cantruyen">
+              <a href="./webtruyen/tiendan/motatiendan.html">
+                <img src="img/doc_duoc.png" alt="" class="anh_minh_hoa"  />
+                
+            <p class="cantruyen"><a href="./webtruyen/tiendan/motatiendan.html"
+              >Tiên đan cho ngươi độc dược phần ta</a
+            >
+            <p class="cantruyen">Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a></a>
+            </p>
+           
+          </div>
+          <div class="truyen">
+            <p class="cantruyen">
+              <a href="./webtruyen/tiendan/motatiendan.html">
+                <img src="img/doc_duoc.png" alt="" class="anh_minh_hoa"  />
+                
+            <p class="cantruyen"><a href="./webtruyen/tiendan/motatiendan.html"
+              >Tiên đan cho ngươi độc dược phần ta</a
+            >
+            <p class="cantruyen">Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a></a>
+            </p>
+           
+          </div>
+          <div class="truyen">
+            <p class="cantruyen">
+              <a href="./webtruyen/tiendan/motatiendan.html">
+                <img src="img/doc_duoc.png" alt="" class="anh_minh_hoa"  />
+                
+            <p class="cantruyen"><a href="./webtruyen/tiendan/motatiendan.html"
+              >Tiên đan cho ngươi độc dược phần ta</a
+            >
+            <p class="cantruyen">Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a></a>
+            </p>
+           
+          </div>
+          
+  
+      </p>
+
+    </div>
+    
+    <div id="demo">
+      <hr>
+      <table style="display: flex; justify-content: center; align-items: center">
+        <tr>
+          <td>
+            <a href="webtruyen/conluanmachu/motaconluan.html"
+              ><img src="img/con_luan.png" alt="" class="anh_minh_hoa"
+            /></a>
+          </td>
+          <td>
+            <a href="webtruyen/Kiếmđongsonha/motakiemdongsonha.html"
+              ><img src="img/son_ha.png" alt="" class="anh_minh_hoa"
+            /></a>
+          </td>
+          <td>
+            <a href="./webtruyen/tiendan/motatiendan.html">
+              <img src="img/doc_duoc.png" alt="" class="anh_minh_hoa" />
+              
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="webtruyen/conluanmachu/motaconluan.html">Côn luân ma chủ</a>
+          </td>
+         
+          <td>
+            <a href="webtruyen/Kiếmđongsonha/motakiemdongsonha.html"
+              >Kiếm đông sơn hạ</a
+            >
+          </td>
+          <td>
+            <a href="./webtruyen/tiendan/motatiendan.html"
+              >Tiên đan cho ngươi độc dược phần ta</a
+            >
+          </td>
+        </tr>
+  
+        <tr>
+          <td style="font-size: 15px">
+            Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a>
+          </td>
+          <td style="font-size: 15px">
+            Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a>
+          </td>
+          <td style="font-size: 15px">
+            Thể loại: <a href="webtruyen/theloai/kiemhiep.html">Kiếm hiệp</a>
+          </td>
+        </tr>
+  
+        <tr>
+          <td><br /></td>
+        </tr>
+        <tr>
+          <td>
+            <a href="webtruyen/hoanggiatieukieuphi.html/motahoangia.html"
+              ><img src="img/Hoang_gia.png" class="anh_minh_hoa"
+            /></a>
+          </td>
+          <td>
+            <a href="webtruyen/cắm sừng/motacamsung.html">
+              <img src="img/cam_sung.png" class="anh_minh_hoa" />
+            </a>
+          </td>
+          <td>
+            <a href="webtruyen/phim giả tình thật/motaphimgia.html"
+              ><img src="img/phim_gia.png" class="anh_minh_hoa"
+            /></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="webtruyen/hoanggiatieukieuphi.html/motahoangia.html"
+              >Hoàng gia tiểu kiều phi</a
+            >
+          </td>
+          <td>
+            <a href="webtruyen/cắm sừng/motacamsung.html"
+              >Sau khi bị cắm sừng tôi trùng sinh</a
+            >
+          </td>
+          <td>
+            <a href="webtruyen/phim giả tình thật/motaphimgia.html"
+              >Phim giả tình thật</a
+            >
+          </td>
+        </tr>
+  
+        <tr>
+          <td style="font-size: 15px">
+            Thể loại: <a href="webtruyen/theloai/ngontinh.html">Ngôn tình</a>
+          </td>
+          <td style="font-size: 15px">
+            Thể loại: <a href="webtruyen/theloai/ngontinh.html">Ngôn tình</a>
+          </td>
+          <td style="font-size: 15px">
+            Thể loại: <a href="webtruyen/theloai/ngontinh.html">Ngôn tình</a>
+          </td>
+        </tr>
+      </table>
+      <script src="timtruyen.js"></script>
+     
     </div>
   </body>
 </html>
