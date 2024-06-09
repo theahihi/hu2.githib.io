@@ -271,3 +271,29 @@ header {
 .doctruyen:hover {
   background-color: orange;
 }
+.tonghopcuoitrang {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.cuoitrang {
+  flex-basis: 50%;
+  margin-top: 50px;
+}
+
+.anhcuoitrang {
+  flex-basis: 50%;
+  margin-left: 400px;
+}
+.iconcuoitrang {
+  margin-top: 9px;
+}
+.logocuoitrang {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 90px;
+}
+.footer {
+  background-color: beige;
+}
