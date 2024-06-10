@@ -209,6 +209,7 @@ header {
 .cantruyen {
   text-align: center;
   margin-right: 3px;
+  margin-top: 8px;
 }
 #main-content {
   margin: 0 auto;
@@ -295,6 +296,59 @@ header {
   transform: translateX(-50%);
   margin-top: 90px;
 }
+.content4 {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.truyenmoicapnhat {
+  flex-basis: 65%;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 8px;
+  align-items: center;
+}
+.toptruyen {
+  flex-basis: 35%;
+  margin-left: 20px;
+  justify-content: center;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 8px;
+  align-items: center;
+}
+.cancapnhat {
+  float: left;
+  margin-left: 10px;
+}
+.vitricapnhattruyen {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.tentruyencapnhat {
+  flex: 1;
+  float: left;
+}
+.sochuongcapnhat {
+  text-align: right;
+  margin-right: 10px;
+}
+.theloaicapnhat {
+  flex: 1;
+  text-align: center;
+  margin-left: 100px;
+}
+.vitricapnhattruyen h3 {
+  color: rgb(112, 111, 108);
+}
+.theloaicapnhat a {
+  color: black;
+}
+.sochuongcapnhat a {
+  color: rgb(211, 142, 15);
+}
+.sotoptruyen {
+}
+
 .footer {
   background-color: rgb(248, 232, 210);
 }
