@@ -4,49 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Côn luân ma chủ</title>
-    <style>
-      td {
-        font-size: 18px;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body>
-    <section style="background-color: burlywood">
-      <marquee behavior="" direction="left">
-        hãy donate cho tôi , tôi xin mọi người đấy huhuhu</marquee
-      >
-    </section>
-
-    <nav>
-      <a href="index.html" id="selected">Trang chủ</a>
-      <a href="../../webtruyen/admin/Quản_trị_truyện.html">Quản trị truyện</a>
-      <a href="../../webtruyen/Tin_tức_truyện.html">Truyện mới</a>
-    </nav>
-
-    <h1 style="color: brown; text-align: center; font-size: 35px">
-      <a href="webtruyen/index.html"> KHOTRUYENCHU</a>
-    </h1>
-
-    <p style="text-align: right">
-      <input id="search-input" type="text" placeholder="Tìm kiếm truyện " />
-      <input type="button" value="Tìm kiếm" onclick="searchStory()" />
-    </p>
-
-    <section class="lop1">
-      <hr />
-
-      <p>
-        Khotruyenchu miến phí và không quảng cáo <br />
-        Hãy donate để có động lực đăng truyện <br />
-        STK : 231020031234 <br />
-        Ngân hàng : MB bank <br />
-        Chủ sở hữu: NGUYENDUCTHE
+    <header> 
+      <a href="../../index.html" class="daumuc"><img src="../../anhnen/logo.png"  style="width: 200px; text-align: left"></a>
+     <div class="box_menu">
+        <ul>
+          <li class="active"><a href="">Danh sách <i class="fa fa-angle-down"></i></a>
+          <div class="box_submenu">
+            <ul>
+               
+               <li><a href="">Truyện mới</a></li>
+               <li><a href="">Truyện hot</a></li>
+               <li><a href="">Xếp hạng theo tháng</a></li>
+               <li><a href="">Xếp hạng theo năm</a></li>
+  
+            </ul>
+          </div>
+          </li>
+          <li><a href="">Thể loại <i class="fa fa-angle-down"></i></a>
+            <div class="box_submenu">
+              <ul>
+                 <li><a href="">Tổng hợp</a></li>
+                 <li><a href="">Kiếm hiệp</a></li>
+                 <li><a href="">Ngôn tình</a></li>
+    
+              </ul>
+            </div>
+          </li>
+          <li><a href="">Tin nổi bật <i class="fa fa-angle-down"></i></a> 
+            <div class="box_submenu">
+              <ul>
+                 <li class="submenu_hover"><a href="">Tin tức về tác giả <i class="fa fa-angle-right"></i></a>
+                  <div class="box_submenu-2">
+                    <ul>
+                       <li><a href="">Tổng hợp</a></li>
+                       <li><a href="">Kiếm hiệp</a></li>
+                       <li><a href="">Ngôn tình</a></li>
+                   </ul>
+                  </div>
+                </li>
+                 <li><a href="">Tin tức truyện hot</a></li>
+                 
+    
+              </ul>
+            </div>
+          </li>
+        </ul> 
+     </div>
+      <p style="text-align: right">
+       <div class="search-text">
+         <div id="input"> <input id="search-input" type="text" placeholder="Tìm kiếm truyện...." /></div>
+         <div id="button"> <a href="" style="color: black;" id="search-button"><i class="fa fa-search"></i></a></div>
+       </div>
+        
       </p>
-
-      <hr />
-    </section>
+      
+      </header>
+      
+      <div id="gioithieu">
+        <hr>
+        
+        <pre style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px; font-weight: bold;">
+  
+        MeTruyenchu - Đọc truyện miễn phí, không quảng cáo 
+        </pre>
+        <hr>
+       
+      </div>
+      
     <a href=""><h1 style="text-align: center">CÔN LUÂN MA CHỦ</h1></a>
     <p style="text-align: center">
       <img src="../../anhnen/conluann.jpg" style="width: 700px" alt="" />

@@ -343,10 +343,26 @@ header {
 .theloaicapnhat a {
   color: black;
 }
-.sochuongcapnhat a {
+.sochuongcapnhat a,
+.khutoptruyen a {
   color: rgb(211, 142, 15);
 }
+.khutoptruyen {
+  align-items: center;
+  justify-content: center;
+}
 .sotoptruyen {
+  margin-right: 5px;
+  background-color: rgb(220, 153, 153);
+  padding: 5px;
+  border-radius: 100%;
+}
+.sotoptruyen a .cantoptruyen:first-child {
+  margin-top: 0;
+}
+.cantoptruyen {
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .footer {
